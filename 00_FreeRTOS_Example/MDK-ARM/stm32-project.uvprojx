@@ -582,6 +582,16 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>UserApp/BSP</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp_uart_debug.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UserApp\Bsp\bsp_uart_debug.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>UserApp</GroupName>
           <Files>
             <File>
