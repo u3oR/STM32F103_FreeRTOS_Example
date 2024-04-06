@@ -1,12 +1,16 @@
 #include "user_main.h"
-#include "FreeRTOS.h"
-#include "FreeRTOSConfig.h"
+#include <stdbool.h>
+#include <string.h>
+
 #include "arm_math.h"
 #include "main.h"
-#include "string.h"
-#include "task.h"
 #include "usart.h"
-#include <stdbool.h>
+
+#include "FreeRTOS.h"
+#include "semphr.h"
+#include "task.h"
+
+#include "bsp/bsp_uart_debug.h"
 
 void vTask1(void *argument);
 void vTask2(void *argument);
